@@ -1,0 +1,44 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+.body {
+    font-family: 'Roboto', Georgia, sans-serif;
+}
+
+.main {
+    width: 1268px;
+}
+.main__text {
+    display: block;
+    text-align: center;
+    width: 664px;
+
+}
+.main__text-header{
+    font-size: 26px;
+    font-weight: 700;
+    color: #211F54;
+}
+
+.main__text-content {
+    display: inline-block;
+    width: 702px;
+    font-size: 21px;
+    font-weight: 400;
+    color:#6E7191
+}
+
+.main__achievements {
+    display: flex;
+    justify-content: center;
+}
+.main__achievements-clients {
+    display: flex;
+}
+.main__achievements-jobs {
+    display: flex;
+}
+.main__achievements-empl {
+    display: flex;
+}
