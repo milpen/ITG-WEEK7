@@ -13,7 +13,6 @@
     display: block;
     text-align: center;
     width: 664px;
-
 }
 .main__text-header{
     font-size: 26px;
@@ -24,6 +23,7 @@
 .main__text-content {
     display: inline-block;
     width: 702px;
+    margin-bottom: 32px;
     font-size: 21px;
     font-weight: 400;
     color:#6E7191
@@ -32,13 +32,101 @@
 .main__achievements {
     display: flex;
     justify-content: center;
+    width: 750px;
 }
 .main__achievements-clients {
     display: flex;
 }
+
+.main__wrapper1-number,
+.main__wrapper2-number,
+.main__wrapper3-number {
+    font-size: 28px;
+    font-weight: 700;
+    color:#211F54;
+}
+.main__wrapper1-text,
+.main__wrapper2-text,
+.main__wrapper3-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E7191
+}
+
 .main__achievements-jobs {
     display: flex;
 }
 .main__achievements-empl {
     display: flex;
+}
+
+.video {
+    display: flex;
+}
+
+.video__cleaning-video {
+    position: relative;
+    max-width: 1012px;
+    opacity: 0.5;
+}
+.video__player-btn {
+    position: absolute;
+    left: 47%;
+    top: 35%;
+    max-width: 198px;
+    max-height: 198px;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .main {
+        max-width: 100%;
+    }
+    .main__text {
+        width: 90%;
+    }
+    .video__cleaning-video {
+        max-width: 95%;
+    }
+    .video__player-btn {
+        width: 10%;
+        height: 5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        max-width: 100%;
+    }
+    .main__text {
+        width: 50%;
+    }
+    .main__text-header{
+        font-size: 0.5em;
+    }
+    .main__text-content {
+        width: 90%;
+        margin-bottom: 32px;
+        font-size: 0.5em;
+    }
+    .main__achievements {
+        width: 90%;
+    }
+    .main__wrapper1-number,
+    .main__wrapper2-number,
+    .main__wrapper3-number {
+        font-size: 0.5em;
+    }
+    .main__wrapper1-text,
+    .main__wrapper2-text,
+    .main__wrapper3-text {
+        font-size: 0.5em;
+    }
+    .video__cleaning-video {
+        max-width: 95%;
+    }
+    .video__player-btn {
+        width: 10%;
+        height: 5%;
+    }
 }
